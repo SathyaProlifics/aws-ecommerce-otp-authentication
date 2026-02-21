@@ -12,9 +12,9 @@ CORS(app)
 
 # ---------------- CONFIGURATION ----------------
 db_config = {
-    "host": "dev.c8h8simk8khk.us-east-1.rds.amazonaws.com",
+    "host": "sathya-mysql-db.cnoocu6mg71q.us-east-1.rds.amazonaws.com",
     "user": "admin",
-    "password": "Cloud123",
+    "password": "Sathya#kal001",
     "database": "cloud"
 }
 
@@ -148,3 +148,4 @@ def login_verify():
 if __name__ == "__main__":
 
     app.run(host="0.0.0.0", port=5000, debug=True)
+
